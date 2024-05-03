@@ -5,7 +5,7 @@ function header() {
     return (
         <>
             <img src='assets/color-sharp2 1.png' className='absolute -z-10' />
-            <div className='w-full mt-10 z-40 flex flex-col md:flex-row md:justify-between justify-center items-center h-screen'>
+            <div className='w-full mt-24 md:mt-10 z-40 flex flex-col md:flex-row md:justify-between justify-center items-center h-screen'>
                 <div className='flex flex-col justify-between md:items-start items-center gap-10 w-full md:w-3/6'>
                     <h1 className='text-5xl text-center md:text-left md:text-6xl font-bold md:ml-20'>Where Footography Takes Off!</h1>
                     <img src='assets/feet.png' className='w-full md:hidden block' />

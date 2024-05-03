@@ -17,7 +17,7 @@ function contactus() {
         <div id="contact" className='w-full mb-52 flex md:flex-row flex-col justify-between h-screen items-center '>
             <div className='md:w-3/6 w-full flex flex-col gap-2 justify-between items-center'>
                 <h1 className='md:text-5xl text-center text-3xl font-bold'>Contact us</h1>
-                <p className='font-extralight text-lg text-center w-5/6 md:w-2/3'>Do you have any questions? try contacting us on our socials or using the contect the from </p>
+                <p className='font-extralight text-lg text-center w-5/6 md:w-2/3'>Contact us on the form below if you have any questions for us!</p>
                 <div className='flex gap-3 mt-10 justify-center w-full items-center flex-col'>
                     <h1 className='text-2xl font-semibold'>Email</h1>
                     <p className='font-extralight text-lg text-center w-2/3'>team.feetflight.app@gmail.com</p>
