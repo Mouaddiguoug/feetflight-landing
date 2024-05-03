@@ -8,6 +8,7 @@ function footer() {
                 <a href='#how_it_works'>How it works</a>
                 <a href='#features'>Features</a>
                 <a href='#contact'>Contact us</a>
+                <a href='https://feetflight.netlify.app'>Privacy policy</a>
             </div>
             <div className='w-full flex justify-between bg-[#0F0F0F] h-full px-20 items-center gap-6'>
                 <img src='assets/logo.png' className='w-16 py-10' />
