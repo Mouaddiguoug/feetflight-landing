@@ -10,7 +10,7 @@ function header() {
                     <h1 className='text-5xl text-center md:text-left md:text-6xl font-bold md:ml-20'>Where Footography Takes Off!</h1>
                     <img src='assets/feet.png' className='w-full md:hidden block' />
                     <p className='md:text-lg text-sm text-center md:text-left px-10 md:px-0 font-thin md:mx-20'>Whether you're a feet enthusiast or you love admiring beautiful feet, our app has something for everyone. Explore an amazing collection of images, videos, and articles admiring the beauty and diversity of feet.</p>
-                    <button onClick={() => router.push("https://play.google.com/store/apps/details?id=app.feetflight.space")} className='md:w-2/6 w-5/6 bg-blue-300 rounded-2xl py-3 md:mx-20'>Get on playstore</button>
+                    <button onClick={() => router.push("https://play.google.com/store/apps/details?id=app.feetflight.space")} className='md:w-2/6 w-5/6 bg-blue-300 rounded-2xl py-3 md:mx-20'>Get it on playstore</button>
                 </div>
                 <div className='w-3/6 md:flex hidden justify-center items-center'>
                     <img src='assets/feet.png' className='w-[50%] absolute pt-10' />
