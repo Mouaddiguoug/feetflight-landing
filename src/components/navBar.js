@@ -1,6 +1,6 @@
 "use client"
-import React, { useDeferredValue, useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation';
+import React, { useDeferredValue, useEffect, useState } from "react"
+import { useRouter } from "next/navigation";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 function navBar() {
