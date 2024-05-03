@@ -10,9 +10,7 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
-    <div className=" z-50 absolute">
-    </div>
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex text-white bg-black min-h-screen flex-col items-center justify-between">
       <NavBar />
       <Header />
       <HowItWorks />
