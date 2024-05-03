@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoIosWarning } from "react-icons/io";
 import axios from "axios";
+import { BsTwitterX } from "react-icons/bs";
 import { MdOutlineSentimentSatisfied } from "react-icons/md";
 import { useState } from "react";
 
@@ -24,7 +25,7 @@ function contactus() {
                 </div>
                 <div className='flex gap-3 mt-10 justify-center w-full items-center flex-col'>
                     <h1 className='text-2xl font-semibold'>Phone</h1>
-                    <p className='font-extralight text-lg text-center w-2/3'>0615107414</p>
+                    <p className='font-extralight text-lg text-center w-2/3'>+212 615107414</p>
                 </div>
                 <div className='flex mt-[50%] md:mt-[10%] absolute gap-10 left-5 md:left-10 justify-center items-start flex-col'>
                     <a href="">
@@ -34,7 +35,7 @@ function contactus() {
                         <FaFacebookF size={20} />
                     </a>
                     <a href="#">
-                        <FaTwitter size={20} />
+                        <BsTwitterX size={20} />
                     </a>
                 </div>
             </div>
@@ -57,7 +58,7 @@ function contactus() {
                     <input onChange={(e) => setName(e.target.value)} placeholder="Full Name" type="text" className="md:w-5/6 w-[90%] outline-none px-3 border-[1.5px] bg-transparent rounded-2xl h-14" />
                     <input onChange={(e) => setEmail(e.target.value)} placeholder="Email" type="text" className="md:w-5/6 w-[90%] outline-none px-3 border-[1.5px] bg-transparent rounded-2xl h-14" />
                     <input onChange={(e) => setNumber(e.target.value)} placeholder="Number" type="text" className="md:w-5/6 w-[90%] outline-none px-3 border-[1.5px] bg-transparent rounded-2xl h-14" />
-                    <textarea placeholder="Message" onChange={(e) => setMessage(e.target.value)} rows={3} className="md:w-5/6 w-[90%] outline-none px-3 border-[1.5px] bg-transparent rounded-2xl" />
+                    <textarea placeholder="Message" onChange={(e) => setMessage(e.target.value)} rows={3} className="md:w-5/6 w-[90%] pt-2 outline-none px-3 border-[1.5px] bg-transparent rounded-2xl" />
                     <button onClick={() => {
                         if (!email || !message || !name) return setIsFormValid(true)
                         setIsFormValid(false)
